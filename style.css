@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: rgb(195, 192, 253);
+  background: linear-gradient(126deg, rgb(195, 192, 253) 0%, rgb(255, 255, 255) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  padding: 130px;
+}
+
+.container {
+  margin: 0 auto;
+  border-radius: 14px;
+  width: 900px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 6px 10px 11px -12px rgb(82, 82, 82);
+}
+.container .side-panel {
+  border-radius: 14px 0 0 14px;
+  background-color: #fff;
+  padding: 30px;
+}
+.container .side-panel .header {
+  padding-bottom: 36px;
+}
+.container .side-panel .header h1 {
+  font-size: 28px;
+}
+.container .side-panel .header p {
+  color: #848484;
+}
+.container .side-panel .form-container input {
+  border: 0;
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+}
+.container .side-panel .form-container input:focus {
+  outline: none;
+}
+.container .side-panel .form-container input::placeholder {
+  transition: all 0.5s ease-out;
+}
+.container .side-panel .form-container input:focus::placeholder {
+  font-size: 18px;
+}
+.container .side-panel .date h2,
+.container .side-panel .date h3 {
+  font-weight: 300;
+  padding-top: 8px;
+}
+.container .side-panel .weather h1,
+.container .side-panel .weather p {
+  font-size: 44px;
+  font-weight: 500;
+}
+.container .side-panel .temp h1 {
+  font-size: 66px;
+  font-weight: 400;
+}
+.container .img-splash {
+  background: url("img/img1.jpg");
+  background-size: cover;
+  flex: 2;
+  background-position: 100% 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
